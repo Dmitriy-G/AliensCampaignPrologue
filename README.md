@@ -4,11 +4,25 @@
 
 ## What implemented in this version
 
-- **Two missions for the alien side.** The first version of the mod includes two missions that you can play for sectoid team against the different human forces.
-- **New units** The current version 0.0.1 introduced several new units: farmers, soldiers, scientists, and several wild animals depending on the mission biome.
-- **The third side - aggressive neutrals** These wild animals appearing in missions are aggressive neutral creatures (except for dogs, which are on the human side). Neutral animals attack both your Sectoids and enemy human forces, so this can add to the fun.
-- **New abilities for sectoids** In my campaign, I plan to add more abilities that depend on the alien type. Some of them are already implemented in version 0.0.1. The full list will be below.
-- **New building on the battlefield** I'm currently using the standard X-COM maps, but I've added a new building — the laboratory. It appears in some missions.
+### Two missions for the alien side.
+
+The first version of the mod includes two missions that you can play for sectoid team against the different human forces.
+
+### New units
+
+The current version 0.0.1 introduced several new units: farmers, soldiers, scientists, and several wild animals depending on the mission biome.
+
+### The third side - aggressive neutrals
+
+These wild animals appearing in missions are aggressive neutral creatures (except for dogs, which are on the human side). Neutral animals attack both your Sectoids and enemy human forces, so this can add to the fun.
+
+### New abilities for sectoids
+
+In my campaign, I plan to add more abilities that depend on the alien type. Some of them are already implemented in version 0.0.1. The full list will be below.
+
+### New building on the battlefield
+
+I'm currently using the standard X-COM maps, but I've added a new building — the laboratory. It appears in some missions.
 
 ## New units
 
