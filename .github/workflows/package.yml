@@ -1,0 +1,80 @@
+name: Package mod
+
+on:
+  push:
+    tags:
+      - 'v*'
+    branches:
+      - '**'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Build mod ZIP
+        id: build
+        shell: bash
+        run: |
+          set -euo pipefail
+          mod=AliensCampaignPrologue
+          version=$(python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          versions = [line.split(':', 1)[1].strip().strip('"\'')
+                      for line in Path('metadata.yml').read_text(encoding='utf-8').splitlines()
+                      if line.startswith('version:')]
+          if len(versions) != 1 or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*', versions[0]):
+              raise SystemExit('metadata.yml must contain one filename-safe version')
+          print(versions[0])
+          PY
+          )
+          zip_name="${mod}_${version}.zip"
+          echo "zip_name=$zip_name" >> "$GITHUB_OUTPUT"
+          folders=(Language Maps Resources Routes Ruleset SoldierName Terrain UFOGraph Units)
+          for folder in "${folders[@]}"; do
+            test -d "$folder"
+          done
+          test -f metadata.yml
+
+          mkdir -p "dist/$mod"
+          cp -a "${folders[@]}" metadata.yml "dist/$mod/"
+          (cd dist && zip -q -r "$zip_name" "$mod")
+          rm -r "dist/$mod"
+
+          # Check that the ZIP contains only the requested top-level entries.
+          unzip -Z1 "dist/$zip_name" | awk -F/ -v mod="$mod" '
+            $1 != mod { exit 1 }
+            NF > 1 && $2 != "" && $2 != "Language" && $2 != "Maps" &&
+              $2 != "Resources" && $2 != "Routes" && $2 != "Ruleset" &&
+              $2 != "SoldierName" && $2 != "Terrain" &&
+              $2 != "UFOGraph" && $2 != "Units" && $2 != "metadata.yml" { exit 1 }
+          '
+          unzip -tq "dist/$zip_name"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ steps.build.outputs.zip_name }}
+          path: dist/${{ steps.build.outputs.zip_name }}
+          if-no-files-found: error
+
+      - name: Publish tagged release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ZIP_NAME: ${{ steps.build.outputs.zip_name }}
+        shell: bash
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" "dist/$ZIP_NAME" --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" "dist/$ZIP_NAME" --generate-notes
+          fi
