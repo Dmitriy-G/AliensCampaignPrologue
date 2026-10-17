@@ -36,9 +36,10 @@ jobs:
           print(versions[0])
           PY
           )
-          zip_name="${mod}_${version}.zip"
+          file_version="${version//./_}"
+          zip_name="${mod}_${file_version}.zip"
           echo "zip_name=$zip_name" >> "$GITHUB_OUTPUT"
-          echo "artifact_name=${mod}_${version}" >> "$GITHUB_OUTPUT"
+          echo "artifact_name=${mod}_${file_version}" >> "$GITHUB_OUTPUT"
           folders=(Language Maps Resources Routes Ruleset SoldierName Terrain UFOGraph Units)
           for folder in "${folders[@]}"; do
             test -d "$folder"
