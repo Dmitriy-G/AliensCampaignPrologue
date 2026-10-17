@@ -1,0 +1,365 @@
+startingBase:
+  name: The arctic outpost
+  lon: 0.1745329252
+  lat: -1.5358897418
+  randomSoldiers: 0
+  soldiers:
+    - type: STR_AVX_SECTOID
+      id: 1
+      name: Sectoid Soldier
+      armor: STR_AVX_SECTOID_ARMOR
+      initialStats: &avxStartingSectoidStats
+        tu: 54
+        stamina: 90
+        health: 30
+        bravery: 80
+        reactions: 63
+        firing: 52
+        throwing: 58
+        strength: 30
+        psiStrength: 40
+        psiSkill: 0
+        melee: 76
+      currentStats: *avxStartingSectoidStats
+    - type: STR_AVX_SECTOID
+      id: 2
+      name: Sectoid Soldier
+      armor: STR_AVX_SECTOID_ARMOR
+      initialStats: *avxStartingSectoidStats
+      currentStats: *avxStartingSectoidStats
+    - type: STR_AVX_SECTOID_MEDIC
+      id: 3
+      name: Sectoid Medic
+      armor: STR_AVX_SECTOID_MEDIC_ARMOR
+      initialStats: *avxStartingSectoidStats
+      currentStats: *avxStartingSectoidStats
+    - type: STR_AVX_SECTOID_NAVIGATOR
+      id: 4
+      name: Sectoid Navigator
+      armor: STR_AVX_SECTOID_NAVIGATOR_ARMOR
+      initialStats: *avxStartingSectoidStats
+      currentStats: *avxStartingSectoidStats
+    - type: STR_AVX_SECTOID_COMMANDER
+      id: 5
+      name: Sectoid Commander
+      armor: STR_AVX_SECTOID_COMMANDER_ARMOR
+      initialStats: &avxStartingCommanderStats
+        tu: 54
+        stamina: 90
+        health: 30
+        bravery: 80
+        reactions: 63
+        firing: 52
+        throwing: 58
+        strength: 30
+        psiStrength: 50
+        psiSkill: 60
+        melee: 76
+      currentStats: *avxStartingCommanderStats
+  facilities: []
+  crafts:
+    - type: STR_AVX_MEDIUM_SCOUT
+      id: 1
+      fuel: 1500
+      damage: 0
+      items:
+        STR_ALIEN_GRENADE: 5
+        STR_MIND_PROBE: 1
+        STR_PLASMA_PISTOL: 1
+        STR_PLASMA_PISTOL_CLIP: 4
+        STR_PLASMA_RIFLE: 4
+        STR_PLASMA_RIFLE_CLIP: 12
+      status: STR_READY
+  items:
+    STR_ALIEN_GRENADE: 10
+    STR_BLASTER_BOMB: 4
+    STR_BLASTER_LAUNCHER: 1
+    STR_MIND_PROBE: 2
+    STR_PLASMA_PISTOL: 2
+    STR_PLASMA_PISTOL_CLIP: 6
+    STR_PLASMA_RIFLE: 5
+    STR_PLASMA_RIFLE_CLIP: 15
+    STR_SMALL_LAUNCHER: 1
+    STR_STUN_BOMB: 6
+  scientists: 0
+  engineers: 0
+
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 2
+  day: 8
+  month: 7
+  year: 1947
+
+missionScripts:
+  - delete: gameStart
+  - delete: recurringTerror
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+  - type: avxHumanInvestigationFirst1
+    firstMonth: 0
+    lastMonth: 0
+    missionWeights:
+      0:
+        STR_AVX_HUMAN_INVESTIGATION_FIRST_1: 100
+    targetBaseOdds: 0
+    regionWeights: &avxInvestigationRegions
+      0:
+        STR_AVX_INVESTIGATION_REGION: 100
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 2880
+    useTable: false
+  - type: avxScientistActivityFirst2
+    firstMonth: 0
+    lastMonth: 0
+    missionWeights:
+      0:
+        STR_AVX_SCIENTIST_ACTIVITY_FIRST_2: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 8640
+    useTable: false
+  - type: avxHumanInvestigationFirst3
+    firstMonth: 0
+    lastMonth: 0
+    missionWeights:
+      0:
+        STR_AVX_HUMAN_INVESTIGATION_FIRST_3: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 14400
+    useTable: false
+  - type: avxScientistActivityFirst4
+    firstMonth: 0
+    lastMonth: 0
+    missionWeights:
+      0:
+        STR_AVX_SCIENTIST_ACTIVITY_FIRST_4: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 20160
+    useTable: false
+  - type: avxHumanInvestigationFirst5
+    firstMonth: 0
+    lastMonth: 0
+    missionWeights:
+      0:
+        STR_AVX_HUMAN_INVESTIGATION_FIRST_5: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 25920
+    useTable: false
+  - type: avxScientistActivityFirst6
+    firstMonth: 0
+    lastMonth: 0
+    missionWeights:
+      0:
+        STR_AVX_SCIENTIST_ACTIVITY_FIRST_6: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 31680
+    useTable: false
+  - type: avxHumanInvestigationRecurring1
+    firstMonth: 1
+    missionWeights:
+      0:
+        STR_AVX_HUMAN_INVESTIGATION_RECURRING_1: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 2880
+    useTable: false
+  - type: avxScientistActivityRecurring2
+    firstMonth: 1
+    missionWeights:
+      0:
+        STR_AVX_SCIENTIST_ACTIVITY_RECURRING_2: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 8640
+    useTable: false
+  - type: avxHumanInvestigationRecurring3
+    firstMonth: 1
+    missionWeights:
+      0:
+        STR_AVX_HUMAN_INVESTIGATION_RECURRING_3: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 14400
+    useTable: false
+  - type: avxScientistActivityRecurring4
+    firstMonth: 1
+    missionWeights:
+      0:
+        STR_AVX_SCIENTIST_ACTIVITY_RECURRING_4: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 20160
+    useTable: false
+  - type: avxHumanInvestigationRecurring5
+    firstMonth: 1
+    missionWeights:
+      0:
+        STR_AVX_HUMAN_INVESTIGATION_RECURRING_5: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 25920
+    useTable: false
+  - type: avxScientistActivityRecurring6
+    firstMonth: 1
+    missionWeights:
+      0:
+        STR_AVX_SCIENTIST_ACTIVITY_RECURRING_6: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 31680
+    useTable: false
+  - type: avxHumanInvestigationRecurring7
+    firstMonth: 1
+    missionWeights:
+      0:
+        STR_AVX_HUMAN_INVESTIGATION_RECURRING_7: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 37440
+    useTable: false
+  - type: avxScientistActivityRecurring8
+    firstMonth: 1
+    missionWeights:
+      0:
+        STR_AVX_SCIENTIST_ACTIVITY_RECURRING_8: 100
+    targetBaseOdds: 0
+    regionWeights: *avxInvestigationRegions
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    startDelay: 43200
+    useTable: false
+
+regions:
+  - type: STR_AVX_INVESTIGATION_REGION
+    regionWeight: 0
+    areas:
+      - [0, 360, -90, 90]
+    missionZones:
+      -
+        - [318, 323, -75, -71, 12]
+        - [12, 22, -28, -22, 7]
+        - [130, 135, 24, 29, 8]
+        - [239, 243, -47, -44, 0]
+        - [13, 18, -62, -58, 0]
+        - [296, 303, 3, 8, 0]
+        - [19, 24, 1, 4, 0]
+      -
+        - [263, 268, -43, -39, 1]
+        - [1, 5, -49, -46, 1]
+        - [28, 34, -50, -47, 1]
+        - [298, 302, 32, 35, 1]
+        - [114, 118, -35, -32, 1]
+
+alienMissions:
+  - &avxInvestigationMission
+    type: STR_AVX_SCIENTIST_ACTIVITY
+    points: 0
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_AVX_HUMAN_FORCES: 100
+    waves:
+      - ufo: STR_AVX_SCIENTIST_ACTIVITY_SITE
+        count: 1
+        trajectory: AVX_IMMEDIATE_SITE
+        timer: 30
+        objective: true
+
+  - &avxHumanInvestigationMission
+    type: STR_AVX_HUMAN_INVESTIGATION
+    refNode: *avxInvestigationMission
+    spawnZone: 1
+    waves:
+      - ufo: STR_AVX_HUMAN_INVESTIGATION_SITE
+        count: 1
+        trajectory: AVX_IMMEDIATE_SITE
+        timer: 30
+        objective: true
+
+  - type: STR_AVX_HUMAN_INVESTIGATION_FIRST_1
+    refNode: *avxHumanInvestigationMission
+  - type: STR_AVX_SCIENTIST_ACTIVITY_FIRST_2
+    refNode: *avxInvestigationMission
+  - type: STR_AVX_HUMAN_INVESTIGATION_FIRST_3
+    refNode: *avxHumanInvestigationMission
+  - type: STR_AVX_SCIENTIST_ACTIVITY_FIRST_4
+    refNode: *avxInvestigationMission
+  - type: STR_AVX_HUMAN_INVESTIGATION_FIRST_5
+    refNode: *avxHumanInvestigationMission
+  - type: STR_AVX_SCIENTIST_ACTIVITY_FIRST_6
+    refNode: *avxInvestigationMission
+  - type: STR_AVX_HUMAN_INVESTIGATION_RECURRING_1
+    refNode: *avxHumanInvestigationMission
+  - type: STR_AVX_SCIENTIST_ACTIVITY_RECURRING_2
+    refNode: *avxInvestigationMission
+  - type: STR_AVX_HUMAN_INVESTIGATION_RECURRING_3
+    refNode: *avxHumanInvestigationMission
+  - type: STR_AVX_SCIENTIST_ACTIVITY_RECURRING_4
+    refNode: *avxInvestigationMission
+  - type: STR_AVX_HUMAN_INVESTIGATION_RECURRING_5
+    refNode: *avxHumanInvestigationMission
+  - type: STR_AVX_SCIENTIST_ACTIVITY_RECURRING_6
+    refNode: *avxInvestigationMission
+  - type: STR_AVX_HUMAN_INVESTIGATION_RECURRING_7
+    refNode: *avxHumanInvestigationMission
+  - type: STR_AVX_SCIENTIST_ACTIVITY_RECURRING_8
+    refNode: *avxInvestigationMission
+
+ufoTrajectories:
+  - id: AVX_IMMEDIATE_SITE
+    groundTimer: 86400
+    waypoints:
+      - [0, 0, 100]

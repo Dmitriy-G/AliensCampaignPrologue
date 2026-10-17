@@ -1,0 +1,33 @@
+crafts:
+  - type: STR_AVX_MEDIUM_SCOUT
+    sprite: 0
+    fuelMax: 1500
+    damageMax: 150
+    speedMax: 760
+    accel: 2
+    soldiers: 5
+    vehicles: 0
+    costBuy: 0
+    costRent: 0
+    forceShowInMonthlyCosts: false
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: AVX_SECTOID_INSERTION_TERRAIN
+      mapDataSets: [BLANKS, U_EXT02, U_WALL02, U_BITS]
+      mapBlocks:
+        - name: AVX_SECTOID_UFO
+          width: 10
+          length: 10
+    deployment:
+      - [4, 7, 0, 4]
+      - [6, 7, 0, 4]
+      - [4, 5, 0, 4]
+      - [6, 5, 0, 4]
+      - [5, 4, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 4, 0, 4]
+      - [6, 4, 0, 4]
+      - [4, 6, 0, 4]
+      - [6, 6, 0, 4]

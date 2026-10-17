@@ -1,0 +1,422 @@
+armors:
+  - type: STR_AVX_FARMER_ARMOR
+    spriteSheet: AVX_FARMER.PCK
+    spriteInv: AVX_FARMER_INV
+    drawingRoutine: 0
+    forcedTorso: 1
+    corpseBattle: [STR_AVX_FARMER_CORPSE]
+    frontArmor: 3
+    sideArmor: 2
+    rearArmor: 1
+    underArmor: 1
+    loftempsSet: [3]
+
+  - type: STR_AVX_OLD_FARMER_ARMOR
+    spriteSheet: AVX_OLD_FARMER.PCK
+    spriteInv: AVX_OLD_FARMER_INV
+    drawingRoutine: 0
+    forcedTorso: 1
+    corpseBattle: [STR_AVX_OLD_FARMER_CORPSE]
+    frontArmor: 3
+    sideArmor: 2
+    rearArmor: 1
+    underArmor: 1
+    loftempsSet: [3]
+
+  - type: STR_AVX_SCIENTIST_ARMOR
+    spriteSheet: AVX_SCIENTIST.PCK
+    spriteInv: AVX_SCIENTIST_INV
+    drawingRoutine: 4
+    forcedTorso: 1
+    allowInv: true
+    corpseBattle: [STR_AVX_SCIENTIST_CORPSE]
+    frontArmor: 2
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    loftempsSet: [3]
+
+  - type: STR_AVX_SECTOID_ARMOR
+    spriteSheet: SECTOID.PCK
+    spriteInv: AVX_SECTOID
+    customArmorPreviewIndex: [0]
+    visibilityAtDark: 20
+    forcedTorso: 1
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [2]
+  - type: STR_AVX_SECTOID_COMMANDER_ARMOR
+    spriteSheet: SECTOID.PCK
+    spriteInv: AVX_SECTOID
+    customArmorPreviewIndex: [0]
+    visibilityAtDark: 20
+    forcedTorso: 1
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.2, 1.6, 0.0]
+    loftempsSet: [2]
+  - type: STR_AVX_SECTOID_NAVIGATOR_ARMOR
+    spriteSheet: SECTOID.PCK
+    spriteInv: AVX_SECTOID
+    customArmorPreviewIndex: [0]
+    visibilityAtDark: 20
+    forcedTorso: 1
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.2, 1.6, 0.0]
+    loftempsSet: [2]
+  - type: STR_AVX_SECTOID_MEDIC_ARMOR
+    spriteSheet: SECTOID.PCK
+    spriteInv: AVX_SECTOID
+    builtInWeapons:
+      - STR_AVX_MEDIC_MORALE_TOOL
+      - STR_AVX_MEDIC_WOUNDS_TOOL
+    customArmorPreviewIndex: [0]
+    visibilityAtDark: 20
+    forcedTorso: 1
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.2, 1.6, 0.0]
+    loftempsSet: [2]
+  - type: STR_AVX_HUMAN_SOLDIER_ARMOR
+    spriteSheet: AVX_HUMAN_SOLDIER.PCK
+    spriteInv: AVX_HUMAN_SOLDIER_INV
+    drawingRoutine: 0
+    corpseBattle:
+      - STR_AVX_HUMAN_SOLDIER_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [3]
+
+  - type: STR_AVX_DRONE_SCOUT_ARMOR
+    spriteSheet: AVX_DRONE_SCOUT.PCK
+    spriteInv: AVX_DRONE_SCOUT_PROFILE
+    drawingRoutine: 4
+    scripts:
+      damageUnit: |
+        set to_wound 0;
+        return;
+    visibilityAtDark: 20
+    movementType: 1
+    alwaysVisible: true
+    size: 1
+    allowInv: false
+    bleedImmune: true
+    corpseBattle: [STR_AVX_DRONE_SCOUT_WRECK]
+    standHeight: 8
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    damageModifier: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0]
+    loftempsSet: [2]
+    deathFrames: 3
+    allowsKneeling: false
+
+  - type: STR_AVX_PANTHER_ARMOR
+    spriteSheet: AVX_PANTHER.PCK
+    spriteInv: AVX_PANTHER_PROFILE
+    drawingRoutine: 4
+    scripts:
+      aiCalculateTargetWeight: |
+        var int faction;
+        target_unit.getFaction faction;
+        if eq faction 2;
+          set current_target_weight 0;
+        else;
+          set current_target_weight 100;
+        end;
+        return current_target_weight;
+      selectUnitSprite: |
+        var int aiming;
+        var int phase;
+        var int direction;
+        unit.isAiming aiming;
+        if eq aiming 1;
+          set phase anim_frame;
+          offsetmod phase 1 0 4;
+          if eq phase 3;
+            set phase 5;
+          end;
+          if eq phase 2;
+            set phase 4;
+          end;
+          if eq phase 1;
+            set phase 2;
+          end;
+          unit.getDirection direction;
+          mul direction 6;
+          set sprite_index 75;
+          add sprite_index direction;
+          add sprite_index phase;
+        else;
+          add sprite_index sprite_offset;
+        end;
+        return sprite_index;
+    size: 1
+    allowInv: false
+    bleedImmune: false
+    corpseBattle: [STR_AVX_PANTHER_CORPSE]
+    standHeight: 14
+    frontArmor: 7
+    sideArmor: 5
+    rearArmor: 4
+    underArmor: 3
+    loftempsSet: [3]
+    deathFrames: 3
+    allowsKneeling: false
+
+  - type: STR_AVX_POLAR_BEAR_ARMOR
+    spriteSheet: AVX_POLAR_BEAR.PCK
+    spriteInv: AVX_POLAR_BEAR_PROFILE
+    drawingRoutine: 4
+    scripts:
+      aiCalculateTargetWeight: |
+        var int faction;
+        target_unit.getFaction faction;
+        if eq faction 2;
+          set current_target_weight 0;
+        else;
+          set current_target_weight 100;
+        end;
+        return current_target_weight;
+      selectUnitSprite: |
+        var int aiming;
+        var int phase;
+        var int direction;
+        unit.isAiming aiming;
+        if eq aiming 1;
+          set phase anim_frame;
+          offsetmod phase 1 0 4;
+          if eq phase 3;
+            set phase 5;
+          end;
+          if eq phase 2;
+            set phase 4;
+          end;
+          if eq phase 1;
+            set phase 2;
+          end;
+          unit.getDirection direction;
+          mul direction 6;
+          set sprite_index 75;
+          add sprite_index direction;
+          add sprite_index phase;
+        else;
+          add sprite_index sprite_offset;
+        end;
+        return sprite_index;
+    size: 1
+    allowInv: false
+    corpseBattle: [STR_AVX_POLAR_BEAR_CORPSE]
+    standHeight: 16
+    frontArmor: 10
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    loftempsSet: [3]
+    deathFrames: 3
+    allowsKneeling: false
+
+  - type: STR_AVX_HYENA_ARMOR
+    spriteSheet: AVX_HYENA.PCK
+    spriteInv: AVX_HYENA_PROFILE
+    drawingRoutine: 4
+    startMovingMale: 999
+    startMovingFemale: 999
+    scripts:
+      aiCalculateTargetWeight: |
+        var int faction;
+        target_unit.getFaction faction;
+        if eq faction 2;
+          set current_target_weight 0;
+        else;
+          set current_target_weight 100;
+        end;
+        return current_target_weight;
+      selectUnitSprite: |
+        var int aiming;
+        var int phase;
+        var int direction;
+        unit.isAiming aiming;
+        if eq aiming 1;
+          set phase anim_frame;
+          offsetmod phase 1 0 4;
+          if eq phase 3;
+            set phase 5;
+          end;
+          if eq phase 2;
+            set phase 4;
+          end;
+          if eq phase 1;
+            set phase 2;
+          end;
+          unit.getDirection direction;
+          mul direction 6;
+          set sprite_index 75;
+          add sprite_index direction;
+          add sprite_index phase;
+        else;
+          add sprite_index sprite_offset;
+        end;
+        return sprite_index;
+    size: 1
+    allowInv: false
+    bleedImmune: false
+    corpseBattle: [STR_AVX_HYENA_CORPSE]
+    standHeight: 12
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    loftempsSet: [3]
+    deathFrames: 3
+    allowsKneeling: false
+
+  - type: STR_AVX_DOG_ARMOR
+    spriteSheet: AVX_DOG.PCK
+    spriteInv: AVX_DOG_PROFILE
+    drawingRoutine: 4
+    startMovingMale: 994
+    startMovingFemale: 994
+    scripts:
+      aiCalculateTargetWeight: |
+        var int faction;
+        target_unit.getFaction faction;
+        if eq faction 0;
+          set current_target_weight 100;
+        else;
+          set current_target_weight 0;
+        end;
+        return current_target_weight;
+      selectUnitSprite: |
+        var int aiming;
+        var int phase;
+        var int direction;
+        unit.isAiming aiming;
+        if eq aiming 1;
+          set phase anim_frame;
+          offsetmod phase 1 0 4;
+          if eq phase 3;
+            set phase 5;
+          end;
+          if eq phase 2;
+            set phase 4;
+          end;
+          if eq phase 1;
+            set phase 2;
+          end;
+          unit.getDirection direction;
+          mul direction 6;
+          set sprite_index 75;
+          add sprite_index direction;
+          add sprite_index phase;
+        else;
+          add sprite_index sprite_offset;
+        end;
+        return sprite_index;
+    size: 1
+    allowInv: false
+    bleedImmune: false
+    corpseBattle: [STR_AVX_DOG_CORPSE]
+    standHeight: 12
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    loftempsSet: [3]
+    deathFrames: 3
+    allowsKneeling: false
+
+  - type: STR_AVX_WOLF_ARMOR
+    spriteSheet: AVX_WOLF.PCK
+    spriteInv: AVX_WOLF_PROFILE
+    drawingRoutine: 4
+    scripts:
+      aiCalculateTargetWeight: |
+        var int faction;
+        target_unit.getFaction faction;
+        if eq faction 2;
+          set current_target_weight 0;
+        else;
+          set current_target_weight 100;
+        end;
+        return current_target_weight;
+      selectUnitSprite: |
+        var int aiming;
+        var int phase;
+        var int direction;
+        unit.isAiming aiming;
+        if eq aiming 1;
+          set phase anim_frame;
+          offsetmod phase 1 0 4;
+          if eq phase 3;
+            set phase 5;
+          end;
+          if eq phase 2;
+            set phase 4;
+          end;
+          if eq phase 1;
+            set phase 2;
+          end;
+          unit.getDirection direction;
+          mul direction 6;
+          set sprite_index 75;
+          add sprite_index direction;
+          add sprite_index phase;
+        else;
+          add sprite_index sprite_offset;
+        end;
+        return sprite_index;
+    size: 1
+    allowInv: false
+    bleedImmune: false
+    corpseBattle: [STR_AVX_WOLF_CORPSE]
+    standHeight: 12
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    loftempsSet: [3]
+    deathFrames: 3
+    allowsKneeling: false

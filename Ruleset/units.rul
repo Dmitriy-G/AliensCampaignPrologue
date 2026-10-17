@@ -1,0 +1,248 @@
+units:
+  - type: STR_AVX_HUMAN_FARMER
+    capturable: false
+    race: STR_AVX_HUMAN_FORCES
+    stats: &avxFarmerEnemyStats
+      tu: 58
+      stamina: 70
+      health: 38
+      bravery: 55
+      reactions: 55
+      firing: 62
+      throwing: 45
+      strength: 32
+      psiStrength: 5
+      psiSkill: 0
+      melee: 62
+    armor: STR_AVX_FARMER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 8
+    intelligence: 4
+    aggression: 4
+    energyRecovery: 30
+    deathSound: [41, 42, 43]
+
+  - type: STR_AVX_HUMAN_OLD_FARMER
+    capturable: false
+    race: STR_AVX_HUMAN_FORCES
+    stats:
+      tu: 52
+      stamina: 58
+      health: 36
+      bravery: 65
+      reactions: 48
+      firing: 30
+      throwing: 40
+      strength: 38
+      psiStrength: 5
+      psiSkill: 0
+      melee: 76
+    armor: STR_AVX_OLD_FARMER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 8
+    intelligence: 4
+    aggression: 4
+    energyRecovery: 30
+    deathSound: [41, 42, 43]
+
+  - type: STR_AVX_HUMAN_SCIENTIST
+    capturable: false
+    race: STR_AVX_HUMAN_FORCES
+    stats:
+      tu: 52
+      stamina: 55
+      health: 30
+      bravery: 40
+      reactions: 35
+      firing: 0
+      throwing: 0
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 0
+    armor: STR_AVX_SCIENTIST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 0
+    intelligence: 2
+    aggression: 0
+    energyRecovery: 30
+    deathSound: [41, 42, 43]
+
+  - type: STR_AVX_DOG_HUMAN
+    race: STR_AVX_HUMAN_FORCES
+    stats:
+      tu: 68
+      stamina: 85
+      health: 38
+      bravery: 75
+      reactions: 65
+      firing: 0
+      throwing: 0
+      strength: 36
+      psiStrength: 10
+      psiSkill: 0
+      melee: 80
+    armor: STR_AVX_DOG_ARMOR
+    standHeight: 12
+    value: 0
+    intelligence: 10
+    aggression: 5
+    energyRecovery: 30
+    meleeWeapon: STR_AVX_DOG_BITE
+    isLeeroyJenkins: true
+    capturable: false
+    aggroSound: 994
+    deathSound: 996
+
+  - type: STR_AVX_HYENA_NEUTRAL
+    race: STR_AVX_HYENA
+    stats:
+      tu: 70
+      stamina: 90
+      health: 45
+      bravery: 80
+      reactions: 65
+      firing: 0
+      throwing: 0
+      strength: 42
+      psiStrength: 10
+      psiSkill: 0
+      melee: 85
+    armor: STR_AVX_HYENA_ARMOR
+    standHeight: 12
+    value: 0
+    intelligence: 10
+    aggression: 5
+    energyRecovery: 30
+    meleeWeapon: STR_AVX_HYENA_BITE
+    isLeeroyJenkins: true
+    capturable: false
+    aggroSound: 999
+    deathSound: 996
+
+  - type: STR_AVX_PANTHER_NEUTRAL
+    race: STR_AVX_PANTHER
+    stats:
+      tu: 68
+      stamina: 95
+      health: 65
+      bravery: 85
+      reactions: 65
+      firing: 0
+      throwing: 0
+      strength: 56
+      psiStrength: 10
+      psiSkill: 0
+      melee: 85
+    armor: STR_AVX_PANTHER_ARMOR
+    standHeight: 14
+    value: 0
+    intelligence: 10
+    aggression: 5
+    energyRecovery: 30
+    meleeWeapon: STR_AVX_PANTHER_PAW
+    isLeeroyJenkins: true
+    capturable: false
+    deathSound: 998
+
+  - type: STR_AVX_WOLF_NEUTRAL
+    race: STR_AVX_WOLF
+    stats:
+      tu: 70
+      stamina: 90
+      health: 45
+      bravery: 80
+      reactions: 65
+      firing: 0
+      throwing: 0
+      strength: 42
+      psiStrength: 10
+      psiSkill: 0
+      melee: 85
+    armor: STR_AVX_WOLF_ARMOR
+    standHeight: 12
+    value: 0
+    intelligence: 10
+    aggression: 5
+    energyRecovery: 30
+    meleeWeapon: STR_AVX_WOLF_BITE
+    isLeeroyJenkins: true
+    capturable: false
+    deathSound: 996
+  - type: STR_AVX_POLAR_BEAR_NEUTRAL
+    race: STR_AVX_POLAR_BEAR
+    stats:
+      tu: 64
+      stamina: 100
+      health: 85
+      bravery: 90
+      reactions: 55
+      firing: 0
+      throwing: 0
+      strength: 70
+      psiStrength: 10
+      psiSkill: 0
+      melee: 85
+    armor: STR_AVX_POLAR_BEAR_ARMOR
+    standHeight: 16
+    value: 0
+    intelligence: 10
+    aggression: 5
+    energyRecovery: 30
+    meleeWeapon: STR_AVX_POLAR_BEAR_PAW
+    isLeeroyJenkins: true
+    capturable: false
+    deathSound: 997
+  - type: STR_AVX_HUMAN_SOLDIER
+    capturable: false
+    race: STR_AVX_HUMAN_FORCES
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 60
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 40
+    armor: STR_AVX_HUMAN_SOLDIER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    intelligence: 4
+    aggression: 4
+    energyRecovery: 30
+    deathSound: [41, 42, 43]
+  - type: STR_AVX_DRONE_SCOUT
+    race: STR_AVX_HUMAN_FORCES
+    rank: 4
+    stats:
+      tu: 70
+      stamina: 90
+      health: 8
+      bravery: 100
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 1
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    armor: STR_AVX_DRONE_SCOUT_ARMOR
+    standHeight: 8
+    value: 20
+    intelligence: 1
+    aggression: 0
+    energyRecovery: 40
+    livingWeapon: true
+    capturable: false
+    canPanic: false
+    canBeMindControlled: false
+    deathSound: 23
+    moveSound: 40

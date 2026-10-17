@@ -1,0 +1,12 @@
+enableUnitResponseSounds: true
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      993: Resources/Sounds/Dog/DogBark.wav
+      994: Resources/Sounds/Dog/DogDoubleBark.wav
+      995: Resources/Sounds/Wolf/WolfBark.wav
+      996: Resources/Sounds/Wolf/WolfDeathWhine.wav
+      997: Resources/Sounds/PolarBear/PolarBearDeathRoar.wav
+      998: Resources/Sounds/Panther/PantherDeathGrowl.wav
+      999: Resources/Sounds/Hyena/HyenaLaugh.wav

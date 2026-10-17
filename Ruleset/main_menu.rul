@@ -1,0 +1,3 @@
+interfaces:
+  - type: mainMenu
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE

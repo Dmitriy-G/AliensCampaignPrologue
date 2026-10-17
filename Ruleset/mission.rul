@@ -1,0 +1,301 @@
+alienDeployments:
+  - type: STR_SMALL_SCOUT
+    isHidden: true
+    reinforcements: &avxWildAnimals
+      - type: AVX_DESERT_HYENAS
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlockGroups: [76]
+        useSpawnNodes: false
+        forceSpawnNearFriend: false
+        data:
+          - alienRank: 0
+            customUnitType: STR_AVX_HYENA_NEUTRAL
+            lowQty: 1
+            medQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              - []
+      - type: AVX_POLAR_BEAR
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlockGroups: [77]
+        useSpawnNodes: false
+        forceSpawnNearFriend: false
+        data:
+          - alienRank: 0
+            customUnitType: STR_AVX_POLAR_BEAR_NEUTRAL
+            lowQty: 1
+            medQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              - []
+      - type: AVX_JUNGLE_PANTHERS
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlockGroups: [79]
+        useSpawnNodes: false
+        forceSpawnNearFriend: false
+        data:
+          - alienRank: 0
+            customUnitType: STR_AVX_PANTHER_NEUTRAL
+            lowQty: 1
+            medQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              - []
+      - type: AVX_FOREST_WOLVES
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlockGroups: [78]
+        useSpawnNodes: false
+        forceSpawnNearFriend: false
+        data:
+          - alienRank: 0
+            customUnitType: STR_AVX_WOLF_NEUTRAL
+            lowQty: 1
+            medQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              - []
+  - type: STR_MEDIUM_SCOUT
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_LARGE_SCOUT
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_HARVESTER
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_ABDUCTOR
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_TERROR_SHIP
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_BATTLESHIP
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_SUPPLY_SHIP
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_TERROR_MISSION
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_ALIEN_BASE_ASSAULT
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_BASE_DEFENSE
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_MARS_CYDONIA_LANDING
+    isHidden: true
+    reinforcements: *avxWildAnimals
+  - type: STR_MARS_THE_FINAL_ASSAULT
+    isHidden: true
+    reinforcements: *avxWildAnimals
+
+  - &avxAssaultSite
+    type: STR_AVX_SCIENTIST_ACTIVITY_SITE
+    winCutscene: AVX_SCIENTIST_INVESTIGATION_VICTORY
+    loseCutscene: AVX_SCIENTIST_INVESTIGATION_DEFEAT
+    abortCutscene: AVX_SCIENTIST_INVESTIGATION_ABORT
+    isHidden: true
+    reinforcements:
+      - type: AVX_SCIENTIST_DESERT_HYENAS
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlockGroups: [76]
+        useSpawnNodes: false
+        forceSpawnNearFriend: false
+        data:
+          - alienRank: 0
+            customUnitType: STR_AVX_HYENA_NEUTRAL
+            lowQty: 4
+            medQty: 4
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              - []
+      - type: AVX_SCIENTIST_ARCTIC_BEARS
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlockGroups: [77]
+        useSpawnNodes: false
+        forceSpawnNearFriend: false
+        data:
+          - alienRank: 0
+            customUnitType: STR_AVX_POLAR_BEAR_NEUTRAL
+            lowQty: 2
+            medQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              - []
+      - type: AVX_SCIENTIST_JUNGLE_PANTHERS
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlockGroups: [79]
+        useSpawnNodes: false
+        forceSpawnNearFriend: false
+        data:
+          - alienRank: 0
+            customUnitType: STR_AVX_PANTHER_NEUTRAL
+            lowQty: 2
+            medQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              - []
+      - type: AVX_SCIENTIST_FOREST_WOLVES
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlockGroups: [78]
+        useSpawnNodes: false
+        forceSpawnNearFriend: false
+        data:
+          - alienRank: 0
+            customUnitType: STR_AVX_WOLF_NEUTRAL
+            lowQty: 4
+            medQty: 4
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              - []
+    race: STR_AVX_HUMAN_FORCES
+    customUfo: STR_AVX_MEDIUM_SCOUT
+    alert: STR_AVX_SCIENTIST_ACTIVITY
+    alertBackground: AVX_SCIENTIST_ACTIVITY_ALERT
+    alertDescription: STR_AVX_SCIENTIST_ACTIVITY_DESCRIPTION
+    markerName: STR_AVX_SCIENTIST_ACTIVITY_SITE
+    missionCompleteText: STR_AVX_INVESTIGATION_COMPLETE
+    missionFailedText: STR_AVX_INVESTIGATION_FAILED
+    briefing:
+      cutscene: AVX_SCIENTIST_INVESTIGATION_INTRO
+      music: GMDEFEND
+      title: STR_AVX_SCIENTIST_ACTIVITY
+      desc: STR_AVX_SCIENTIST_ACTIVITY_BRIEFING
+      background: AVX_COMMON_UFO_BACKGROUND
+      showTarget: false
+      showCraft: true
+    markerIcon: 5
+    duration: [168, 168]
+    forcePercentageOutsideUfo: true
+    script: AVX_SCIENTIST_LAB_LAYOUT
+    data:
+      - alienRank: 3
+        lowQty: 5
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          - []
+      - alienRank: 0
+        lowQty: 8
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          - [STR_RIFLE, STR_RIFLE_CLIP, STR_RIFLE_CLIP]
+    width: 80
+    length: 80
+    height: 4
+
+  - type: STR_AVX_HUMAN_INVESTIGATION_SITE
+    refNode: *avxAssaultSite
+    isHidden: false
+    winCutscene: AVX_HUMAN_INVESTIGATION_VICTORY
+    loseCutscene: AVX_HUMAN_INVESTIGATION_DEFEAT
+    abortCutscene: AVX_HUMAN_INVESTIGATION_ABORT
+    script: AVX_REVERSE_SPAWN
+    reinforcements: *avxWildAnimals
+    data:
+      - alienRank: 1
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          - [STR_RIFLE, STR_RIFLE_CLIP, STR_RIFLE_CLIP]
+      - alienRank: 1
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          - [STR_AVX_PITCHFORK]
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          - [STR_RIFLE, STR_RIFLE_CLIP, STR_RIFLE_CLIP]
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          - [STR_AVX_PITCHFORK]
+      - alienRank: 0
+        customUnitType: STR_AVX_DOG_HUMAN
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          - []
+    alert: STR_AVX_HUMAN_INVESTIGATION
+    alertBackground: AVX_HUMAN_INVESTIGATION_ALERT
+    alertDescription: STR_AVX_HUMAN_INVESTIGATION_DESCRIPTION
+    markerName: STR_AVX_HUMAN_INVESTIGATION_SITE
+    briefing:
+      cutscene: AVX_HUMAN_INVESTIGATION_INTRO
+      music: GMDEFEND
+      title: STR_AVX_HUMAN_INVESTIGATION
+      desc: STR_AVX_HUMAN_INVESTIGATION_BRIEFING
+      background: AVX_COMMON_UFO_BACKGROUND
+      showTarget: false
+      showCraft: true
+    terrains: [CULTA]
+
+ufos:
+  - type: STR_AVX_MEDIUM_SCOUT
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 200
+    speedMax: 2400
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250

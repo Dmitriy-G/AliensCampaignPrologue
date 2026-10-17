@@ -1,0 +1,98 @@
+hiddenMovementBackgrounds: [AVX_TURN_BACKGROUND]
+
+interfaces:
+  - type: commendationsLate
+    backgroundImage: AVX_SOLDIERS_SCREEN
+  - type: intercept
+    backgroundImage: AVX_COMMON_UFO_BACKGROUND
+  - type: confirmDestination
+    backgroundImage: AVX_COMMON_UFO_BACKGROUND
+    altBackgroundImage: AVX_COMMON_UFO_BACKGROUND
+  - type: debriefing
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: targetInfo
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: confirmLanding
+    backgroundImage: AVX_COMMON_UFO_BACKGROUND
+  - type: manufactureMenu
+    backgroundImage: AVX_MANUFACTURE_SCREEN
+  - type: selectNewManufacture
+    backgroundImage: AVX_MANUFACTURE_SCREEN
+  - type: selectFacility
+    backgroundImage: AVX_BUILD_FACILITIES_SCREEN
+  - type: craftSelect
+    backgroundImage: AVX_EQUIP_CRAFT_SCREEN
+  - type: craftInfo
+    backgroundImage: AVX_EQUIP_CRAFT_SCREEN
+  - type: craftArmor
+    backgroundImage: AVX_EQUIP_CRAFT_SCREEN
+  - type: craftSoldiers
+    backgroundImage: AVX_SOLDIERS_SCREEN
+  - type: craftEquipment
+    backgroundImage: AVX_SOLDIERS_SCREEN
+  - type: soldierList
+    backgroundImage: AVX_SOLDIERS_SCREEN
+  - type: soldierMemorial
+    backgroundImage: AVX_SOLDIERS_SCREEN
+  - type: endGameStatistics
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: saveMenus
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+    altBackgroundImage: AVX_COMMON_BACKGROUND
+  - type: geoscape
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+    altBackgroundImage: AVX_COMMON_BACKGROUND
+  - type: newGameMenu
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: ufopaedia
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: systemMenu
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: pauseMenu
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+    altBackgroundImage: AVX_COMMON_BACKGROUND
+  - type: graphs
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: optionsMenu
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+    altBackgroundImage: AVX_COMMON_BACKGROUND
+  - type: researchMenu
+    backgroundImage: AVX_RESEARCH_SCIENTIST
+  - type: alienBase
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: itemsArriving
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: geoNewCraft
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: geoNewFacility
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: geoNewItem
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: fundingWindow
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: monthlyReport
+    backgroundImage: AVX_COMMON_BACKGROUND_GEOSCAPE
+  - type: sellMenu
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: dependencyTree
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: itemLocations
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: transferMenu
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: transferConfirm
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: dismantleFacility
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: storesInfo
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: costsInfo
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: sackSoldier
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: transferInfo
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: transferBaseSelect
+    backgroundImage: AVX_COMMON_BACKGROUND
+  - type: buyMenu
+    backgroundImage: AVX_COMMON_BACKGROUND

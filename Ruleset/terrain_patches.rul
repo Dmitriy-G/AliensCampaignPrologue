@@ -1,0 +1,18 @@
+MCDPatches:
+  - type: U_WALL02
+    data:
+      - MCDIndex: 45
+        specialType: 0
+  - type: U_EXT02
+    data:
+      - MCDIndex: 25
+        specialType: 1
+  - type: URBITS
+    data:
+      - MCDIndex: 17
+        deathTile: 0
+      - MCDIndex: 21
+        deathTile: 0
+      - MCDIndex: 22
+        armor: 10
+        deathTile: 0

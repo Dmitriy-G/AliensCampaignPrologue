@@ -1,0 +1,96 @@
+skills:
+  - type: STR_AVX_MEDIC_HEAL
+    targetMode: 11
+    tuUse: 15
+    flatUse: true
+    compatibleWeapons:
+      - STR_AVX_MEDIC_HEAL_TOOL
+    checkHandsOnly: false
+
+  - type: STR_AVX_MEDIC_RESTORE_MORALE
+    targetMode: 11
+    tuUse: 15
+    flatUse: true
+    compatibleWeapons:
+      - STR_AVX_MEDIC_MORALE_TOOL
+    checkHandsOnly: false
+
+  - type: STR_AVX_MEDIC_TREAT_WOUNDS
+    targetMode: 11
+    tuUse: 25
+    flatUse: true
+    compatibleWeapons:
+      - STR_AVX_MEDIC_WOUNDS_TOOL
+    checkHandsOnly: false
+
+  - type: STR_AVX_REMOTE_PANIC
+    targetMode: 14
+    tuUse: 26
+    flatUse: true
+    isPsiRequired: true
+    compatibleWeapons:
+      - STR_AVX_COMMANDER_PSI
+    checkHandsOnly: false
+
+  - type: STR_AVX_COMMANDER_MIND_CONTROL
+    targetMode: 13
+    tuUse: 38
+    flatUse: true
+    isPsiRequired: true
+    compatibleWeapons:
+      - STR_AVX_COMMANDER_PSI
+    checkHandsOnly: false
+
+  - type: STR_AVX_NAVIGATOR_DRONE_DEPLOY
+    targetMode: 8
+    tuUse: 40
+    flatUse: true
+    compatibleWeapons:
+      - STR_AVX_NAVIGATOR_DRONE_BEACON
+    checkHandsOnly: false
+
+  - type: STR_AVX_COMMANDER_LIFE_DETECTION
+    targetMode: 0
+    tuUse: 38
+    flatUse: true
+    isPsiRequired: true
+    scripts:
+      skillUseUnit: |
+        var int target_count;
+        var int target_index;
+        var int current_index;
+        var int stunned;
+
+        set continue_action 0;
+        set spend_tu 0;
+        if eq have_tu 0;
+          return;
+        end;
+
+        loop var enemy battle_game.getUnits.byFaction.list FACTION_HOSTILE;
+          enemy.isStunned stunned;
+          if eq stunned 0;
+            add target_count 1;
+          end;
+        end;
+
+        if eq target_count 0;
+          return;
+        end;
+
+        sub target_count 1;
+        battle_game.randomRange target_index 0 target_count;
+
+        loop var enemy battle_game.getUnits.byFaction.list FACTION_HOSTILE;
+          enemy.isStunned stunned;
+          if eq stunned 0;
+            if eq current_index target_index;
+              enemy.makeVisible;
+              set spend_tu 1;
+              return;
+            end;
+            add current_index 1;
+          end;
+        end;
+
+        return;

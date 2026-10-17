@@ -1,0 +1,168 @@
+cutscenes:
+  - type: AVX_SCIENTIST_INVESTIGATION_INTRO
+    slideshow:
+      transitionSeconds: 6
+      musicId: GMDEFEND
+      slides:
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigation/01.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_START_1
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigation/02.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_START_2
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigation/03.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_START_3
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+  - type: AVX_SCIENTIST_INVESTIGATION_VICTORY
+    slideshow:
+      transitionSeconds: 6
+      musicId: GMDEFEND
+      slides:
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationVictory/01.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_VICTORY_1
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationVictory/02.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_VICTORY_2
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationVictory/03.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_VICTORY_3
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+
+  - type: AVX_SCIENTIST_INVESTIGATION_DEFEAT
+    slideshow:
+      transitionSeconds: 6
+      musicId: GMDEFEND
+      slides:
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationRetreat/01.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_DEFEAT_1
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationRetreat/02.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_DEFEAT_2
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationDefeat/03.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_DEFEAT_3
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+
+  - type: AVX_SCIENTIST_INVESTIGATION_ABORT
+    slideshow:
+      transitionSeconds: 6
+      musicId: GMDEFEND
+      slides:
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationRetreat/01.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_ABORT_1
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationRetreat/02.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_ABORT_2
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/ScientistInvestigationAbort/03.png
+          caption: STR_AVX_SCIENTIST_INVESTIGATION_ABORT_3
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+
+  - type: AVX_HUMAN_INVESTIGATION_INTRO
+    slideshow:
+      transitionSeconds: 6
+      musicId: GMDEFEND
+      slides:
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigation/01.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_START_1
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigation/02.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_START_2
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigation/03.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_START_3
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+  - type: AVX_HUMAN_INVESTIGATION_VICTORY
+    slideshow:
+      transitionSeconds: 6
+      musicId: GMDEFEND
+      slides:
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationVictory/01.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_VICTORY_1
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationVictory/02.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_VICTORY_2
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationVictory/03.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_VICTORY_3
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+  - type: AVX_HUMAN_INVESTIGATION_DEFEAT
+    slideshow:
+      transitionSeconds: 6
+      musicId: GMDEFEND
+      slides:
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationRetreat/01.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_DEFEAT_1
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationRetreat/02.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_DEFEAT_2
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationDefeat/03.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_DEFEAT_3
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+  - type: AVX_HUMAN_INVESTIGATION_ABORT
+    slideshow:
+      transitionSeconds: 6
+      musicId: GMDEFEND
+      slides:
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationRetreat/01.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_ABORT_1
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationRetreat/02.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_ABORT_2
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+        - imagePath: Resources/UI/Cutscenes/HumanInvestigationRetreat/03.png
+          caption: STR_AVX_HUMAN_INVESTIGATION_ABORT_3
+          captionSize: [296, 16]
+          captionPos: [12, 180]
+          captionColor: 133
+
+
+
+

@@ -1,0 +1,7 @@
+alienRaces:
+  - id: STR_AVX_HUMAN_FORCES
+    members:
+      - STR_AVX_HUMAN_SOLDIER
+      - STR_AVX_HUMAN_FARMER
+      - STR_AVX_HUMAN_OLD_FARMER
+      - STR_AVX_HUMAN_SCIENTIST

@@ -1,0 +1,14 @@
+events:
+  - name: STR_AVX_SECTOID_CLONING_EVENT
+    description: STR_AVX_SECTOID_CLONING_EVENT_DESCRIPTION
+    background: AVX_COMMON_BACKGROUND_GEOSCAPE
+    spawnedPersons: 2
+    spawnedPersonType: STR_AVX_SECTOID
+    timer: 60
+
+eventScripts:
+  - type: AVX_SECTOID_CLONING_EVENT
+    firstMonth: 1
+    lastMonth: 1
+    oneTimeSequentialEvents:
+      - STR_AVX_SECTOID_CLONING_EVENT

@@ -1,0 +1,9 @@
+* text=auto
+*.yml text eol=lf
+*.rul text eol=lf
+*.md text eol=lf
+*.MAP binary
+*.RMP binary
+*.MCD binary
+*.PCK binary
+*.TAB binary

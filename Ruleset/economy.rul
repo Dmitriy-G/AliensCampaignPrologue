@@ -1,0 +1,262 @@
+costEngineer: 0
+costScientist: 0
+initialFunding: 0
+hireScientistsUnlockResearch: STR_AVX_TRADING_DISABLED
+hireEngineersUnlockResearch: STR_AVX_TRADING_DISABLED
+newBaseUnlockResearch: STR_AVX_TRADING_DISABLED
+
+countries:
+  - type: STR_USA
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_RUSSIA
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_UK
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_FRANCE
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_GERMANY
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_ITALY
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_SPAIN
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_CHINA
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_JAPAN
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_INDIA
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_BRAZIL
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_AUSTRALIA
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_NIGERIA
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_SOUTH_AFRICA
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_EGYPT
+    fundingBase: 0
+    fundingCap: 0
+  - type: STR_CANADA
+    fundingBase: 0
+    fundingCap: 0
+
+facilities:
+  - type: STR_ACCESS_LIFT
+    buildCost: 0
+    monthlyCost: 0
+  - type: STR_HANGAR
+    buildCost: 0
+    monthlyCost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_LIVING_QUARTERS
+    buildCost: 0
+    monthlyCost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_GENERAL_STORES
+    buildCost: 0
+    monthlyCost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_SMALL_RADAR_SYSTEM
+    buildCost: 0
+    monthlyCost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_LABORATORY
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_WORKSHOP
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_LARGE_RADAR_SYSTEM
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_MISSILE_DEFENSES
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_ALIEN_CONTAINMENT
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_LASER_DEFENSES
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_PLASMA_DEFENSES
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_FUSION_BALL_DEFENSES
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_GRAV_SHIELD
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_MIND_SHIELD
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_PSIONIC_LABORATORY
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - type: STR_HYPER_WAVE_DECODER
+    requires: [STR_AVX_RESEARCH_LOCK]
+
+soldiers:
+  - type: STR_SOLDIER
+    costBuy: 0
+
+crafts:
+  - type: STR_SKYRANGER
+    costBuy: 0
+    costRent: 0
+    forceShowInMonthlyCosts: false
+  - type: STR_INTERCEPTOR
+    costBuy: 0
+    costRent: 0
+    forceShowInMonthlyCosts: false
+
+items:
+  - {type: STR_STINGRAY_LAUNCHER, costBuy: 0}
+  - {type: STR_STINGRAY_MISSILES, costBuy: 0}
+  - {type: STR_AVALANCHE_LAUNCHER, costBuy: 0}
+  - {type: STR_AVALANCHE_MISSILES, costBuy: 0}
+  - {type: STR_CANNON, costBuy: 0}
+  - {type: STR_CANNON_ROUNDS_X50, costBuy: 0}
+  - {type: STR_TANK_CANNON, costBuy: 0}
+  - {type: STR_HWP_CANNON_SHELLS, costBuy: 0}
+  - {type: STR_TANK_ROCKET_LAUNCHER, costBuy: 0}
+  - {type: STR_HWP_ROCKETS, costBuy: 0}
+  - {type: STR_PISTOL, costBuy: 0}
+  - {type: STR_PISTOL_CLIP, costBuy: 0}
+  - {type: STR_RIFLE, costBuy: 0}
+  - {type: STR_RIFLE_CLIP, costBuy: 0}
+  - {type: STR_HEAVY_CANNON, costBuy: 0}
+  - {type: STR_HC_AP_AMMO, costBuy: 0}
+  - {type: STR_HC_HE_AMMO, costBuy: 0}
+  - {type: STR_HC_I_AMMO, costBuy: 0}
+  - {type: STR_AUTO_CANNON, costBuy: 0}
+  - {type: STR_AC_AP_AMMO, costBuy: 0}
+  - {type: STR_AC_HE_AMMO, costBuy: 0}
+  - {type: STR_AC_I_AMMO, costBuy: 0}
+  - {type: STR_ROCKET_LAUNCHER, costBuy: 0}
+  - {type: STR_SMALL_ROCKET, costBuy: 0}
+  - {type: STR_LARGE_ROCKET, costBuy: 0}
+  - {type: STR_INCENDIARY_ROCKET, costBuy: 0}
+  - {type: STR_GRENADE, costBuy: 0}
+  - {type: STR_SMOKE_GRENADE, costBuy: 0}
+  - {type: STR_PROXIMITY_GRENADE, costBuy: 0}
+  - {type: STR_HIGH_EXPLOSIVE, costBuy: 0}
+  - {type: STR_STUN_ROD, costBuy: 0}
+  - {type: STR_ELECTRO_FLARE, costBuy: 0}
+
+  - {type: STR_AC_AP_AMMO, costSell: 0}
+  - {type: STR_AC_HE_AMMO, costSell: 0}
+  - {type: STR_AC_I_AMMO, costSell: 0}
+  - {type: STR_ALIEN_ALLOYS, costSell: 0, specialType: 0}
+  - {type: STR_ALIEN_ENTERTAINMENT, costSell: 0, specialType: 0}
+  - {type: STR_ALIEN_FOOD, costSell: 0, specialType: 0}
+  - {type: STR_ALIEN_GRENADE, costSell: 0}
+  - {type: STR_ALIEN_HABITAT, costSell: 0, specialType: 0}
+  - {type: STR_ALIEN_REPRODUCTION, costSell: 0, specialType: 0}
+  - {type: STR_ALIEN_SURGERY, costSell: 0, specialType: 0}
+  - {type: STR_AUTO_CANNON, costSell: 0}
+  - {type: STR_AVALANCHE_LAUNCHER, costSell: 0}
+  - {type: STR_AVALANCHE_MISSILES, costSell: 0}
+  - {type: STR_BLASTER_BOMB, costSell: 0}
+  - {type: STR_BLASTER_LAUNCHER, costSell: 0}
+  - {type: STR_CANNON, costSell: 0}
+  - {type: STR_CANNON_ROUNDS_X50, costSell: 0}
+  - {type: STR_CELATID_CORPSE, costSell: 0}
+  - {type: STR_CELATID_TERRORIST, costSell: 0}
+  - {type: STR_CHRYSSALID_CORPSE, costSell: 0}
+  - {type: STR_CHRYSSALID_TERRORIST, costSell: 0}
+  - {type: STR_CYBERDISC_CORPSE, costSell: 0}
+  - {type: STR_CYBERDISC_TERRORIST, costSell: 0}
+  - {type: STR_ELECTRO_FLARE, costSell: 0}
+  - {type: STR_ELERIUM_115, costSell: 0}
+  - {type: STR_ETHEREAL_COMMANDER, costSell: 0}
+  - {type: STR_ETHEREAL_CORPSE, costSell: 0}
+  - {type: STR_ETHEREAL_LEADER, costSell: 0}
+  - {type: STR_ETHEREAL_SOLDIER, costSell: 0}
+  - {type: STR_EXAMINATION_ROOM, costSell: 0, specialType: 0}
+  - {type: STR_FLOATER_COMMANDER, costSell: 0}
+  - {type: STR_FLOATER_CORPSE, costSell: 0}
+  - {type: STR_FLOATER_ENGINEER, costSell: 0}
+  - {type: STR_FLOATER_LEADER, costSell: 0}
+  - {type: STR_FLOATER_MEDIC, costSell: 0}
+  - {type: STR_FLOATER_NAVIGATOR, costSell: 0}
+  - {type: STR_FLOATER_SOLDIER, costSell: 0}
+  - {type: STR_FLYING_SUIT, costSell: 0}
+  - {type: STR_FUSION_BALL, costSell: 0}
+  - {type: STR_FUSION_BALL_LAUNCHER, costSell: 0}
+  - {type: STR_GRENADE, costSell: 0}
+  - {type: STR_HC_AP_AMMO, costSell: 0}
+  - {type: STR_HC_HE_AMMO, costSell: 0}
+  - {type: STR_HC_I_AMMO, costSell: 0}
+  - {type: STR_HEAVY_CANNON, costSell: 0}
+  - {type: STR_HEAVY_LASER, costSell: 0}
+  - {type: STR_HEAVY_PLASMA, costSell: 0}
+  - {type: STR_HEAVY_PLASMA_CLIP, costSell: 0}
+  - {type: STR_HIGH_EXPLOSIVE, costSell: 0}
+  - {type: STR_HOVERTANK_LAUNCHER, costSell: 0}
+  - {type: STR_HOVERTANK_PLASMA, costSell: 0}
+  - {type: STR_HWP_CANNON_SHELLS, costSell: 0}
+  - {type: STR_HWP_FUSION_BOMB, costSell: 0}
+  - {type: STR_HWP_ROCKETS, costSell: 0}
+  - {type: STR_INCENDIARY_ROCKET, costSell: 0}
+  - {type: STR_LARGE_ROCKET, costSell: 0}
+  - {type: STR_LASER_CANNON, costSell: 0}
+  - {type: STR_LASER_PISTOL, costSell: 0}
+  - {type: STR_LASER_RIFLE, costSell: 0}
+  - {type: STR_MEDI_KIT, costSell: 0}
+  - {type: STR_MIND_PROBE, costSell: 0}
+  - {type: STR_MOTION_SCANNER, costSell: 0}
+  - {type: STR_MUTON_CORPSE, costSell: 0}
+  - {type: STR_MUTON_ENGINEER, costSell: 0}
+  - {type: STR_MUTON_NAVIGATOR, costSell: 0}
+  - {type: STR_MUTON_SOLDIER, costSell: 0}
+  - {type: STR_PERSONAL_ARMOR, costSell: 0}
+  - {type: STR_PISTOL, costSell: 0}
+  - {type: STR_PISTOL_CLIP, costSell: 0}
+  - {type: STR_PLASMA_BEAM, costSell: 0}
+  - {type: STR_PLASMA_PISTOL, costSell: 0}
+  - {type: STR_PLASMA_PISTOL_CLIP, costSell: 0}
+  - {type: STR_PLASMA_RIFLE, costSell: 0}
+  - {type: STR_PLASMA_RIFLE_CLIP, costSell: 0}
+  - {type: STR_POWER_SUIT, costSell: 0}
+  - {type: STR_PROXIMITY_GRENADE, costSell: 0}
+  - {type: STR_PSI_AMP, costSell: 0}
+  - {type: STR_REAPER_CORPSE, costSell: 0}
+  - {type: STR_REAPER_TERRORIST, costSell: 0}
+  - {type: STR_RIFLE, costSell: 0}
+  - {type: STR_RIFLE_CLIP, costSell: 0}
+  - {type: STR_ROCKET_LAUNCHER, costSell: 0}
+  - {type: STR_SECTOID_COMMANDER, costSell: 0}
+  - {type: STR_SECTOID_CORPSE, costSell: 0}
+  - {type: STR_SECTOID_ENGINEER, costSell: 0}
+  - {type: STR_SECTOID_LEADER, costSell: 0}
+  - {type: STR_SECTOID_MEDIC, costSell: 0}
+  - {type: STR_SECTOID_NAVIGATOR, costSell: 0}
+  - {type: STR_SECTOID_SOLDIER, costSell: 0}
+  - {type: STR_SECTOPOD_CORPSE, costSell: 0}
+  - {type: STR_SECTOPOD_TERRORIST, costSell: 0}
+  - {type: STR_SILACOID_CORPSE, costSell: 0}
+  - {type: STR_SILACOID_TERRORIST, costSell: 0}
+  - {type: STR_SMALL_LAUNCHER, costSell: 0}
+  - {type: STR_SMALL_ROCKET, costSell: 0}
+  - {type: STR_SMOKE_GRENADE, costSell: 0}
+  - {type: STR_SNAKEMAN_COMMANDER, costSell: 0}
+  - {type: STR_SNAKEMAN_CORPSE, costSell: 0}
+  - {type: STR_SNAKEMAN_ENGINEER, costSell: 0}
+  - {type: STR_SNAKEMAN_LEADER, costSell: 0}
+  - {type: STR_SNAKEMAN_NAVIGATOR, costSell: 0}
+  - {type: STR_SNAKEMAN_SOLDIER, costSell: 0}
+  - {type: STR_STINGRAY_LAUNCHER, costSell: 0}
+  - {type: STR_STINGRAY_MISSILES, costSell: 0}
+  - {type: STR_STUN_BOMB, costSell: 0}
+  - {type: STR_STUN_ROD, costSell: 0}
+  - {type: STR_TANK_CANNON, costSell: 0}
+  - {type: STR_TANK_LASER_CANNON, costSell: 0}
+  - {type: STR_TANK_ROCKET_LAUNCHER, costSell: 0}
+  - {type: STR_UFO_CONSTRUCTION, costSell: 0, specialType: 0}
+  - {type: STR_UFO_NAVIGATION, costSell: 0, specialType: 0}
+  - {type: STR_UFO_POWER_SOURCE, costSell: 0, specialType: 0}

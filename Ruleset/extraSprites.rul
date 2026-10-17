@@ -1,0 +1,222 @@
+extraSprites:
+  - type: TAC00.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/turn_background.png
+
+  - type: AVX_TURN_BACKGROUND
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/turn_background.png
+
+  - type: AVX_HUMAN_SOLDIER_INV
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Humans/Soldier/HumanSoldierProfile.png
+
+  - type: AVX_FARMER_INV
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Humans/Farmer/FarmerProfile.png
+
+  - type: AVX_OLD_FARMER_INV
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Humans/OldFarmer/OldFarmerProfile.png
+
+  - type: AVX_SCIENTIST_INV
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Humans/Scientist/ScientistProfile.png
+
+  - type: AVX_DOG_PROFILE
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Animals/Dog/DogProfile.png
+
+  - type: AVX_HYENA_PROFILE
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Animals/Hyena/HyenaProfile.png
+
+  - type: AVX_PANTHER_PROFILE
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Animals/Panther/PantherProfile.png
+
+  - type: AVX_WOLF_PROFILE
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Animals/Wolf/WolfProfile.png
+
+  - type: AVX_POLAR_BEAR_PROFILE
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Animals/PolarBear/PolarBearProfile.png
+
+  - type: AVX_DRONE_SCOUT_PROFILE
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Aliens/DroneScout/DroneScoutProfile.png
+
+  - type: BASEBITS.PCK
+    width: 32
+    height: 40
+    files:
+      33: Resources/UI/CraftInfo/medium_scout.png
+
+  - type: CustomArmorPreviews
+    width: 10
+    height: 18
+    files:
+      0: Resources/UI/CraftInfo/sectoid_crew.png
+
+  - type: GlobeMarkers
+    width: 3
+    height: 3
+    files:
+      0: Resources/UI/Geoscape/avx-base-marker.png
+
+  - type: AVX_COMMON_BACKGROUND
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/common_background.png
+
+  - type: AVX_COMMON_BACKGROUND_GEOSCAPE
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/common_background_geoscape.png
+
+  - type: AVX_HUMAN_INVESTIGATION_ALERT
+    width: 256
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/human_investigation_alert.png
+
+  - type: AVX_COMMON_UFO_BACKGROUND
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/common_ufo_background_full.png
+
+  - type: AVX_SCIENTIST_ACTIVITY_ALERT
+    width: 256
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/scientist_activity_alert.png
+
+  - type: AVX_RESEARCH_SCIENTIST
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/research-scientist.png
+
+  - type: AVX_SOLDIERS_SCREEN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/soldiers_screen.png
+
+  - type: AVX_EQUIP_CRAFT_SCREEN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/equip_craft_screen.png
+
+  - type: AVX_BUILD_FACILITIES_SCREEN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/build_facilities_screen.png
+
+  - type: AVX_MANUFACTURE_SCREEN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/ScreenBackgrounds/manufacture_screen.png
+
+  - type: SPICONS.DAT
+    width: 32
+    height: 24
+    files:
+      996: Resources/UI/skills/AVX_WOLF_BITE.png
+      997: Resources/UI/skills/AVX_POLAR_BEAR_PAW.png
+      998: Resources/UI/skills/AVX_MEDIC_SKILL.png
+      999: Resources/UI/skills/AVX_NAVIGATOR_SKILL.png
+      995: Resources/UI/skills/AVX_PANTHER_PAW.png
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      984: Resources/Items/Pitchfork/Hand.png
+
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      988: Resources/Items/Pitchfork/Floor.png
+      990: Resources/Units/Humans/Farmer/FarmerCorpse.png
+      991: Resources/Units/Humans/OldFarmer/OldFarmerCorpseUnarmed.png
+      992: Resources/Units/Humans/Scientist/ScientistCorpse.png
+      993: Resources/Units/Animals/Dog/DogCorpse.png
+      994: Resources/Units/Animals/Hyena/HyenaCorpse.png
+      996: Resources/Units/Animals/Wolf/WolfCorpse.png
+      997: Resources/Units/Animals/PolarBear/PolarBearCorpse.png
+      998: Resources/Units/Humans/Soldier/HumanSoldierCorpse.png
+      999: Resources/Units/Aliens/DroneScout/DroneScoutWreck.png
+      995: Resources/Units/Animals/Panther/PantherCorpse.png
+
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      988: Resources/Items/Pitchfork/Inventory.png
+      989: Resources/Units/Animals/Dog/DogPickupBody.png
+      990: Resources/Units/Animals/Hyena/HyenaPickupBody.png
+      991: Resources/Units/Animals/Panther/PantherPickupBody.png
+      992: Resources/Units/Animals/Wolf/WolfPickupBody.png
+      993: Resources/Units/Animals/PolarBear/PolarBearPickupBody.png
+      994: Resources/Units/Aliens/DroneScout/DroneScoutPickupBody.png
+      995: Resources/Units/Humans/Farmer/FarmerCorpseInventory.png
+      996: Resources/Units/Humans/OldFarmer/OldFarmerCorpseInventory.png
+      997: Resources/Units/Humans/Scientist/ScientistCorpseInventory.png
+      998: Resources/Units/Humans/Soldier/HumanSoldierCorpseInventory.png

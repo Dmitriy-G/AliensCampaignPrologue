@@ -1,0 +1,412 @@
+items:
+  - type: STR_RIFLE
+    recover: true
+    requires: [STR_RIFLE]
+
+  - type: STR_RIFLE_CLIP
+    recover: true
+    requires: [STR_RIFLE_CLIP]
+
+  - type: STR_AVX_PITCHFORK
+    requires: [STR_AVX_PITCHFORK]
+    size: 0.1
+    weight: 6
+    battleType: 3
+    twoHanded: true
+    blockBothHands: true
+    bigSprite: 988
+    floorSprite: 988
+    handSprite: 984
+    invWidth: 1
+    invHeight: 3
+    clipSize: -1
+    confMelee:
+      ammoSlot: -1
+    power: 42
+    damageType: 7
+    accuracyMelee: 90
+    tuMelee: 20
+    flatRate: true
+    recover: true
+
+  - type: STR_AVX_FARMER_CORPSE
+    requires: [STR_AVX_FARMER_CORPSE]
+    battleType: 11
+    floorSprite: 990
+    bigSprite: 995
+    invWidth: 2
+    invHeight: 3
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_OLD_FARMER_CORPSE
+    requires: [STR_AVX_OLD_FARMER_CORPSE]
+    battleType: 11
+    floorSprite: 991
+    bigSprite: 996
+    invWidth: 2
+    invHeight: 3
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_SCIENTIST_CORPSE
+    requires: [STR_AVX_SCIENTIST_CORPSE]
+    battleType: 11
+    floorSprite: 992
+    bigSprite: 997
+    invWidth: 2
+    invHeight: 3
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_DOG_BITE
+    battleType: 3
+    fixedWeapon: true
+    meleeSound: 993
+    specialIconSprite: 996
+    specialUseEmptyHand: true
+    specialUseEmptyHandShow: true
+    clipSize: -1
+    confMelee:
+      ammoSlot: -1
+    power: 38
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 18
+    flatRate: true
+    recover: false
+
+  - type: STR_AVX_DOG_CORPSE
+    requires: [STR_AVX_DOG_CORPSE]
+    battleType: 11
+    floorSprite: 993
+    bigSprite: 989
+    invWidth: 3
+    invHeight: 2
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_HYENA_BITE
+    battleType: 3
+    fixedWeapon: true
+    meleeSound: 995
+    specialIconSprite: 996
+    specialUseEmptyHand: true
+    specialUseEmptyHandShow: true
+    clipSize: -1
+    confMelee:
+      ammoSlot: -1
+    power: 42
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 18
+    flatRate: true
+    recover: false
+
+  - type: STR_AVX_HYENA_CORPSE
+    requires: [STR_AVX_HYENA_CORPSE]
+    battleType: 11
+    floorSprite: 994
+    bigSprite: 990
+    invWidth: 3
+    invHeight: 2
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_PANTHER_PAW
+    battleType: 3
+    fixedWeapon: true
+    specialIconSprite: 995
+    specialUseEmptyHand: true
+    specialUseEmptyHandShow: true
+    clipSize: -1
+    confMelee:
+      ammoSlot: -1
+    power: 48
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 19
+    flatRate: true
+    recover: false
+
+  - type: STR_AVX_PANTHER_CORPSE
+    requires: [STR_AVX_PANTHER_CORPSE]
+    battleType: 11
+    floorSprite: 995
+    bigSprite: 991
+    invWidth: 3
+    invHeight: 2
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_WOLF_BITE
+    battleType: 3
+    fixedWeapon: true
+    meleeSound: 995
+    specialIconSprite: 996
+    specialUseEmptyHand: true
+    specialUseEmptyHandShow: true
+    clipSize: -1
+    confMelee:
+      ammoSlot: -1
+    power: 42
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 18
+    flatRate: true
+    recover: false
+
+  - type: STR_AVX_WOLF_CORPSE
+    requires: [STR_AVX_WOLF_CORPSE]
+    battleType: 11
+    floorSprite: 996
+    bigSprite: 992
+    invWidth: 3
+    invHeight: 2
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_POLAR_BEAR_PAW
+    battleType: 3
+    fixedWeapon: true
+    specialIconSprite: 997
+    specialUseEmptyHand: true
+    specialUseEmptyHandShow: true
+    clipSize: -1
+    confMelee:
+      ammoSlot: -1
+    power: 55
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 20
+    flatRate: true
+    recover: false
+
+  - type: STR_AVX_POLAR_BEAR_CORPSE
+    requires: [STR_AVX_POLAR_BEAR_CORPSE]
+    battleType: 11
+    floorSprite: 997
+    bigSprite: 993
+    invWidth: 3
+    invHeight: 2
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_HUMAN_SOLDIER_CORPSE
+    requires: [STR_AVX_HUMAN_SOLDIER_CORPSE]
+    size: 0.4
+    weight: 30
+    bigSprite: 998
+    battleType: 11
+    floorSprite: 998
+    invWidth: 2
+    invHeight: 3
+    armor: 20
+    recover: true
+    recoverCorpse: true
+
+  - type: STR_AVX_COMMANDER_PSI
+    battleType: 9
+    accuracyMindControl: -25
+    hitSound: 36
+    tuUse: 0
+    weight: 0
+    recover: false
+
+  - type: STR_AVX_DRONE_SCOUT_WRECK
+    battleType: 11
+    floorSprite: 999
+    bigSprite: 994
+    invWidth: 3
+    invHeight: 2
+    recover: false
+    recoverCorpse: false
+
+  - type: STR_ALIEN_GRENADE
+    requires: []
+  - type: STR_BLASTER_BOMB
+    requires: []
+  - type: STR_BLASTER_LAUNCHER
+    requires: []
+  - type: STR_MIND_PROBE
+    requires: []
+  - type: STR_PLASMA_PISTOL
+    requires: []
+  - type: STR_PLASMA_PISTOL_CLIP
+    requires: []
+  - type: STR_PLASMA_RIFLE
+    requires: []
+  - type: STR_PLASMA_RIFLE_CLIP
+    requires: []
+  - type: STR_SMALL_LAUNCHER
+    requires: []
+  - type: STR_STUN_BOMB
+    requires: []
+
+  - type: STR_AVX_MEDIC_HEAL_TOOL
+    weight: 0
+    battleType: 9
+    LOSRequired: false
+    psiRequired: false
+    targetMatrix: 7
+    power: 20
+    damageType: 0
+    blastRadius: 0
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0
+      IgnoreNormalMoraleLose: true
+      ToHealth: -0.15
+      ToArmor: 0
+      ToWound: 0
+      ToStun: 0
+      ToTile: 0
+      ToItem: 0
+      ToMorale: 0
+    hitSound: 36
+    hitAnimation: -1
+    hitMissAnimation: -1
+    tuUse: 0
+    scripts:
+      tryPsiAttackItem: |
+        return 1;
+      hitUnitAmmo: |
+        set power 0;
+        unit.addHealth 3;
+        return power part side;
+    recover: false
+
+  - type: STR_AVX_MEDIC_MORALE_TOOL
+    weight: 0
+    battleType: 9
+    LOSRequired: false
+    psiRequired: false
+    targetMatrix: 7
+    power: 20
+    damageType: 0
+    blastRadius: 0
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0
+      IgnoreNormalMoraleLose: true
+      ToHealth: 0
+      ToArmor: 0
+      ToWound: 0
+      ToStun: 0
+      ToTile: 0
+      ToItem: 0
+      ToMorale: -10
+    hitSound: 36
+    hitAnimation: -1
+    hitMissAnimation: -1
+    tuUse: 0
+    scripts:
+      tryPsiAttackItem: |
+        return 1;
+      hitUnitAmmo: |
+        set power 0;
+        unit.addMorale 20;
+        return power part side;
+    recover: false
+
+  - type: STR_AVX_MEDIC_WOUNDS_TOOL
+    weight: 0
+    battleType: 9
+    LOSRequired: false
+    psiRequired: false
+    targetMatrix: 7
+    power: 20
+    damageType: 0
+    blastRadius: 0
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0
+      IgnoreNormalMoraleLose: true
+      ToHealth: 0
+      ToArmor: 0
+      ToWound: 0
+      ToStun: 0
+      ToTile: 0
+      ToItem: 0
+      ToMorale: 0
+    hitSound: 36
+    hitAnimation: -1
+    hitMissAnimation: -1
+    tuUse: 0
+    scripts:
+      tryPsiAttackItem: |
+        return 1;
+      hitUnitAmmo: |
+        var int wounds;
+        var int treated;
+
+        set power 0;
+        unit.getFatalwounds wounds 0;
+        if gt wounds 0;
+          unit.addFatalwounds 0 -1;
+          set treated 1;
+        end;
+        if eq treated 0;
+          unit.getFatalwounds wounds 1;
+          if gt wounds 0;
+            unit.addFatalwounds 1 -1;
+            set treated 1;
+          end;
+        end;
+        if eq treated 0;
+          unit.getFatalwounds wounds 2;
+          if gt wounds 0;
+            unit.addFatalwounds 2 -1;
+            set treated 1;
+          end;
+        end;
+        if eq treated 0;
+          unit.getFatalwounds wounds 3;
+          if gt wounds 0;
+            unit.addFatalwounds 3 -1;
+            set treated 1;
+          end;
+        end;
+        if eq treated 0;
+          unit.getFatalwounds wounds 4;
+          if gt wounds 0;
+            unit.addFatalwounds 4 -1;
+            set treated 1;
+          end;
+        end;
+        if eq treated 0;
+          unit.getFatalwounds wounds 5;
+          if gt wounds 0;
+            unit.addFatalwounds 5 -1;
+          end;
+        end;
+        return power part side;
+    recover: false
+
+  - type: STR_AVX_NAVIGATOR_DRONE_BEACON
+    weight: 0
+    battleType: 1
+    clipSize: 1
+    isAmmoRechargeable: true
+    handSprite: -1
+    floorSprite: -1
+    bulletSprite: 0
+    bulletSpeed: 1000
+    fireSound: -1
+    power: 0
+    powerForAnimation: 0
+    damageType: 0
+    accuracySnap: 200
+    tuSnap: 0
+    flatSnap: true
+    maxRange: 1
+    hitAnimation: -1
+    hitAnimFrames: 0
+    hitMissAnimation: -1
+    hitMissAnimFrames: 0
+    hitSound: -1
+    hitMissSound: -1
+    spawnUnit: STR_AVX_DRONE_SCOUT
+    spawnUnitFaction: 0
+    spawnUnitChance: 100
+    recover: false

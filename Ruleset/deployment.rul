@@ -1,0 +1,286 @@
+terrains:
+  - name: DESERT
+    script: DESERT
+    mapScripts: []
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+        groups: [0, 1, 76]
+      - name: DESERT01
+        width: 10
+        length: 10
+        groups: [0, 1, 76]
+      - name: DESERT02
+        width: 10
+        length: 10
+        groups: [0, 1, 76]
+      - name: DESERT03
+        width: 10
+        length: 10
+        groups: [0, 76]
+      - name: DESERT04
+        width: 10
+        length: 10
+        groups: [0, 76]
+      - name: DESERT05
+        width: 10
+        length: 10
+        groups: [0, 76]
+      - name: DESERT06
+        width: 10
+        length: 10
+        groups: [0, 76]
+      - name: DESERT07
+        width: 10
+        length: 10
+        groups: [0, 76]
+      - name: DESERT08
+        width: 10
+        length: 10
+        groups: [0, 76]
+      - name: DESERT09
+        width: 20
+        length: 20
+        groups: [0, 76]
+      - name: DESERT10
+        width: 20
+        length: 20
+        groups: [0, 76]
+      - name: DESERT11
+        width: 20
+        length: 20
+        groups: [0, 76]
+  - name: JUNGLE
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: [1, 79]
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: [1, 79]
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: [1, 79]
+      - name: JUNGLE03
+        width: 10
+        length: 10
+        groups: [0, 79]
+      - name: JUNGLE04
+        width: 10
+        length: 10
+        groups: [0, 79]
+      - name: JUNGLE05
+        width: 10
+        length: 10
+        groups: [0, 79]
+      - name: JUNGLE06
+        width: 10
+        length: 10
+        groups: [0, 79]
+      - name: JUNGLE07
+        width: 10
+        length: 10
+        groups: [0, 79]
+      - name: JUNGLE08
+        width: 10
+        length: 10
+        groups: [0, 79]
+      - name: JUNGLE09
+        width: 10
+        length: 10
+        groups: [0, 79]
+      - name: JUNGLE10
+        width: 10
+        length: 10
+        groups: [0, 79]
+      - name: JUNGLE11
+        width: 10
+        length: 10
+        groups: [0, 79]
+  - name: POLAR
+    mapBlocks:
+      - name: POLAR00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR03
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR04
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR05
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR06
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR07
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR08
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR09
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR10
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR11
+        width: 10
+        length: 10
+        groups: [0, 77]
+      - name: POLAR12
+        width: 20
+        length: 20
+        groups: [0, 77]
+      - name: POLAR13
+        width: 20
+        length: 20
+        groups: [0, 77]
+  - name: FOREST
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: [1, 78]
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: [1, 78]
+      - name: FOREST02
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST03
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST04
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST05
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST06
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST07
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST08
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST09
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST10
+        width: 20
+        length: 20
+        groups: [0, 78]
+      - name: FOREST11
+        width: 20
+        length: 20
+        groups: [0, 78]
+  - name: AVX_FOREST
+    script: AVX_REVERSE_SPAWN
+    mapDataSets: [BLANKS, FOREST]
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: [1, 78]
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: [1, 78]
+      - name: FOREST02
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST03
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST04
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST05
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST06
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST07
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST08
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST09
+        width: 10
+        length: 10
+        groups: [0, 78]
+      - name: FOREST10
+        width: 20
+        length: 20
+        groups: [0, 78]
+      - name: FOREST11
+        width: 20
+        length: 20
+        groups: [0, 78]
+
+  - name: AVX_SCIENTIST_LAB_TERRAIN
+    mapDataSets: [ROADS, URBAN, FRNITURE, AVX_LABTOOLS]
+    mapBlocks:
+      - name: AVX_SCIENTIST_LAB
+        width: 20
+        length: 20
+        groups: 0
+
+mapScripts:
+  - type: AVX_SCIENTIST_LAB_LAYOUT
+    commands:
+      - type: addBlock
+        blocks: 0
+        size: 2
+        terrain: AVX_SCIENTIST_LAB_TERRAIN
+      - type: addCraft
+      - type: fillArea
+
+  - type: AVX_REVERSE_SPAWN
+    commands:
+      - type: addCraft
+      - type: fillArea

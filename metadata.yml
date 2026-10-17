@@ -1,0 +1,8 @@
+name: "Aliens Campaign Prologue"
+version: "0.0.1"
+description: "The demo version of future mod. You can play for sectoids against human forces"
+author: "AzzzzART"
+id: AliensCampaignPrologue
+isMaster: true
+master: xcom1
+requiredExtendedVersion: "8.7.0"

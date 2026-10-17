@@ -1,0 +1,589 @@
+research:
+  - name: STR_AVX_RESEARCH_LOCK
+    cost: 1
+    dependencies:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_RIFLE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_RIFLE_CLIP
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_PITCHFORK
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_FARMER_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_OLD_FARMER_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_SCIENTIST_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_HUMAN_SOLDIER_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_DOG_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_HYENA_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_PANTHER_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_WOLF_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_AVX_POLAR_BEAR_CORPSE
+    cost: 0
+    requires: [STR_AVX_RESEARCH_LOCK]
+  - name: STR_LASER_WEAPONS
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MOTION_SCANNER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MEDI_KIT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PSI_AMP
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_HEAVY_PLASMA
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_HEAVY_PLASMA_CLIP
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PLASMA_RIFLE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PLASMA_RIFLE_CLIP
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PLASMA_PISTOL
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PLASMA_PISTOL_CLIP
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_BLASTER_LAUNCHER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_BLASTER_BOMB
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SMALL_LAUNCHER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_STUN_BOMB
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_GRENADE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ELERIUM_115
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MIND_PROBE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_UFO_POWER_SOURCE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_UFO_NAVIGATION
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_UFO_CONSTRUCTION
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_FOOD
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_REPRODUCTION
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_ENTERTAINMENT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_SURGERY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_EXAMINATION_ROOM
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_ALLOYS
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_NEW_FIGHTER_CRAFT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_NEW_FIGHTER_TRANSPORTER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ULTIMATE_CRAFT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_LASER_PISTOL
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_LASER_RIFLE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_HEAVY_LASER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_LASER_CANNON
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PLASMA_CANNON
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FUSION_MISSILE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_LASER_DEFENSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PLASMA_DEFENSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FUSION_DEFENSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_GRAV_SHIELD
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MIND_SHIELD
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PSI_LAB
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_HYPER_WAVE_DECODER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_LEADER_PLUS
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_COMMANDER_PLUS
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CELATID_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SILACOID_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CHRYSSALID_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_REAPER_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOPOD_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CYBERDISC_CORPSE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_ORIGINS
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_THE_MARTIAN_SOLUTION
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CYDONIA_OR_BUST
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PERSONAL_ARMOR
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_POWER_SUIT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLYING_SUIT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID_COMMANDER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID_LEADER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID_ENGINEER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID_MEDIC
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID_NAVIGATOR
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID_SOLDIER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN_COMMANDER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN_LEADER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN_ENGINEER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN_MEDIC
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN_NAVIGATOR
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN_SOLDIER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL_COMMANDER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL_LEADER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL_ENGINEER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL_MEDIC
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL_NAVIGATOR
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL_SOLDIER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON_COMMANDER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON_LEADER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON_ENGINEER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON_MEDIC
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON_NAVIGATOR
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON_SOLDIER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER_COMMANDER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER_LEADER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER_ENGINEER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER_MEDIC
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER_NAVIGATOR
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER_SOLDIER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CELATID_TERRORIST
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SILACOID_TERRORIST
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CHRYSSALID_TERRORIST
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_REAPER_TERRORIST
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOPOD_TERRORIST
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CYBERDISC_TERRORIST
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PLASMA_CANNON_DEP1
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_PLASMA_CANNON_DEP2
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CELATID_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SILACOID_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CHRYSSALID_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_REAPER_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOPOD_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CYBERDISC_AUTOPSY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOID
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SNAKEMAN
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ETHEREAL
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MUTON
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_FLOATER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CELATID
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SILACOID
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CHRYSSALID
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_REAPER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SECTOPOD
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_CYBERDISC
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_RESEARCH
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_HARVEST
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_ABDUCTION
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_INFILTRATION
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_BASE
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_TERROR
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_RETALIATION
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ALIEN_SUPPLY
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SMALL_SCOUT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_MEDIUM_SCOUT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_LARGE_SCOUT
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_HARVESTER
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_ABDUCTOR
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_TERROR_SHIP
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_BATTLESHIP
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
+  - name: STR_SUPPLY_SHIP
+    cost: 0
+    requires:
+      - STR_AVX_RESEARCH_LOCK
