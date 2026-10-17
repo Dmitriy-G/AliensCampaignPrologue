@@ -38,6 +38,7 @@ jobs:
           )
           zip_name="${mod}_${version}.zip"
           echo "zip_name=$zip_name" >> "$GITHUB_OUTPUT"
+          echo "artifact_name=${mod}_${version}" >> "$GITHUB_OUTPUT"
           folders=(Language Maps Resources Routes Ruleset SoldierName Terrain UFOGraph Units)
           for folder in "${folders[@]}"; do
             test -d "$folder"
@@ -47,7 +48,6 @@ jobs:
           mkdir -p "dist/$mod"
           cp -a "${folders[@]}" metadata.yml "dist/$mod/"
           (cd dist && zip -q -r "$zip_name" "$mod")
-          rm -r "dist/$mod"
 
           # Check that the ZIP contains only the requested top-level entries.
           unzip -Z1 "dist/$zip_name" | awk -F/ -v mod="$mod" '
@@ -62,8 +62,8 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-artifact@v7
         with:
-          name: ${{ steps.build.outputs.zip_name }}
-          path: dist/${{ steps.build.outputs.zip_name }}
+          name: ${{ steps.build.outputs.artifact_name }}
+          path: dist/AliensCampaignPrologue/
           if-no-files-found: error
 
       - name: Publish tagged release
