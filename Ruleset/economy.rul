@@ -1,9 +1,9 @@
 costEngineer: 0
 costScientist: 0
 initialFunding: 0
-hireScientistsUnlockResearch: STR_AVX_TRADING_DISABLED
-hireEngineersUnlockResearch: STR_AVX_TRADING_DISABLED
-newBaseUnlockResearch: STR_AVX_TRADING_DISABLED
+hireScientistsUnlockResearch: STR_AVX_RESEARCH_LOCK
+hireEngineersUnlockResearch: STR_AVX_RESEARCH_LOCK
+newBaseUnlockResearch: STR_AVX_RESEARCH_LOCK
 
 countries:
   - type: STR_USA
