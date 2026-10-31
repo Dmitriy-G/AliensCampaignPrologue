@@ -10,7 +10,7 @@ The first version of the mod includes two missions that you can play for sectoid
 
 ### New units
 
-The current version 0.0.1 introduced several new units: farmers, soldiers, scientists, and several wild animals depending on the mission biome.
+The current version 0.0.2 introduced several new units: farmers, soldiers, scientists, and several wild animals depending on the mission biome.
 
 ### The third side - aggressive neutrals
 
@@ -18,7 +18,7 @@ These wild animals appearing in missions are aggressive neutral creatures (excep
 
 ### New abilities for sectoids
 
-In my campaign, I plan to add more abilities that depend on the alien type. Some of them are already implemented in version 0.0.1. The full list will be below.
+In my campaign, I plan to add more abilities that depend on the alien type. Some of them are already implemented in version 0.0.2. The full list will be below.
 
 ### New building on the battlefield
 
@@ -70,7 +70,7 @@ Depending on the biome, some wild animals may appear. They will attack both side
 
 1. Wild animals are neutral objects, so you don't see them as enemy markers (but they will attack you). This is an OXCE limitation that I can't fix without using own fork.
 2. The economic component is disabled, my mod doesn't support the economy right now, but I also can't disable it completely because it's an OXCE limitation, so it's still there, but with zeros.
-3. A lot of what I planned hasn't yet been implemented in version 0.0.1. Currently, researches, production, buildings, the Ufopedia, and a number of other things haven't been introduced.
+3. A lot of what I planned hasn't yet been implemented in version 0.0.2. Currently, researches, production, buildings, the Ufopedia, and a number of other things haven't been introduced.
 
 ## How to play this mod
 
